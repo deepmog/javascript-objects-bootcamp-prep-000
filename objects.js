@@ -1,4 +1,4 @@
-var playlist = { 
+const playlist = { 
   olp: "is anybody home",
   riahanna: "diamonds",
   galantis: "emoji"
@@ -13,5 +13,5 @@ var playlist = {
   
   function removeFromPlaylist(playlist, artistName) {
     delete playlist.artistName;
-   playList;
+   return playList;
   }
